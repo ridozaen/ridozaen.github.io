@@ -5,7 +5,7 @@
 body{
     font-family: Helvetica;
     box-sizing: border-box;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 header{
@@ -67,26 +67,38 @@ a:hover{
     padding: 15px;
 }
 #left-content{
-    width: 60%;
-    background-color: lightgoldenrodyellow;
+    width: 55%;
+    background-color: #fbf6d5;
     min-height: 300px;
     float: left;
+    padding: 15px;
 }
 #right-content{
-    width: 37%;
-    background-color: lightcoral;
+    width: 35%;
+    /* background-color: lightcoral; */
     min-height: 300px;
+    padding: 15px;
     float: right;
 }
 
-#search input{
-    text-shadow: none;
-    box-shadow: none;
-    border-color: transparent;
+#about h3{
+    color: #000000;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#about img{
+    width: 120px;
+    float: left;
+    margin: 0 15px 5px 0;
+}
+
+#about p {
+    text-align: justify;
 }
 
 figure{
-    padding: 10px 0 10px 0;
+    padding: 0px 0 10px 0;
 }
 
 figure img{
