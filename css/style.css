@@ -148,7 +148,7 @@ a {
     color: #000000;
 }
 
-#categories ul {
+#categories ul li {
     list-style: none;
     padding: 0;
     margin-left: 5px;
@@ -157,7 +157,7 @@ a {
 }
 
 
-#references ul {
+#references ul li {
     list-style: none;
     padding: 0;
     margin-left: 5px;
