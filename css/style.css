@@ -156,6 +156,14 @@ a {
     line-height: 18px;
 }
 
+
+#references ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+    list-style-position: inside;
+    line-height: 20px;
+}
 hr.break-post {
     border-top: 1px dashed #000000;
     margin: 50px 0 50px 0;
